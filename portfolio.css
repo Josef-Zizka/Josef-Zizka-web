@@ -1,0 +1,69 @@
+*{padding: 0;
+margin: 0;}
+
+body{ max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+background-color: #DCF2F1;}
+
+
+#galerie{
+    display: flex;
+gap: 20px;
+}
+
+#sloupec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media(max-width:768px){
+    #galerie{
+        flex-direction: column;
+    }
+}
+
+#fotka{
+transition: 1s;
+}
+
+
+#fotka:hover{
+    transform: scale(1.11)
+}
+
+/*MENU*/
+
+#menu{
+    display: flex;
+    padding-bottom: 25px;
+    text-align: center; 
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@import url(https://db.onlinewebfonts.com/c/6cb78fb592f9a8244397b1bd220d6453?family=HP+Simplified);
+
+#portf{
+font-family: HP Simplified;
+font-size: 55px;
+color: #0F1035;
+}
+#domu{
+    width: 57px;
+    transition: 1s;
+}
+#domu:hover{
+    transform: scale(1.15);
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: HP Simplified;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+#menu{
+    background-color: #DCF2F1;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu img{
+    height: 100px;
+}
+#omne{
+    font-size: 75px;
+}
+#podnadpis{
+    font-size: 65px;
+    background-color: #0F1035;
+    width: 100%;
+    height: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #DCF2F1;
+}
+#Obsah{
+    width: 100%;
+    background-color:#DCF2F1 ;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    background-color: #0F1035;
+    width: 35%;
+    height: 80%;
+    border-radius: 60px;
+    color: #DCF2F1;
+    display: flex;
+    align-items: center;
+   text-align: center;
+}
+#text{
+    font-size: 30px;
+    padding: 30px;
+}
+#box img{
+    height: 420px;
+    width: auto;
+    padding-top: 25px;
+    border-radius: 40px;
+
+}
