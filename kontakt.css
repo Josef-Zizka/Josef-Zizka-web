@@ -1,0 +1,78 @@
+@import url(https://db.onlinewebfonts.com/c/6cb78fb592f9a8244397b1bd220d6453?family=HP+Simplified);
+*{padding: 0;
+    margin: 0;
+    font-family: HP Simplified;
+    color: #0F1035;
+}
+body{ max-width: 1224px;
+    width: 90%;
+    height: 100vh;
+    margin: auto; /*body je ve stredu*/
+    background-color: #DCF2F1;
+}
+#menu{
+    padding: 25px 0;
+    display: flex;
+    padding-bottom: 25px;
+    text-align: center; 
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+#kontakt{
+    font-size: 55px;
+    
+}
+#obsah{
+    margin: auto; /* #obsah je v stredu*/
+    margin-top: 25px;
+    width: 50%;
+    height: 70%;
+background-color: #DCF2F1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 60px;
+    
+    
+}
+#kont_udaj{
+   
+  width: 95%;
+  height: 80%;
+  border-radius: 60px;
+font-size: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+
+}
+#ikona{
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+    padding-right: 5px;
+    color: #0F1035;
+}
+#kont_udaj a{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #0F1035;
+}
+#kont_udaj a:hover{
+    padding: 5px;
+    border-radius: 20px;
+border: #94f5f5 solid 5px;
+}
+#domu{
+    width: 57px;
+    transition: 1s;
+}
+#domu:hover{
+    transform: scale(1.15);
+}
+
