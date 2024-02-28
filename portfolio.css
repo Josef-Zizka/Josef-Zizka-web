@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/6cb78fb592f9a8244397b1bd220d6453?family=HP+Simplified);
 *{padding: 0;
 margin: 0;}
 
@@ -53,7 +54,7 @@ transition: 1s;
     
 }
 
-@import url(https://db.onlinewebfonts.com/c/6cb78fb592f9a8244397b1bd220d6453?family=HP+Simplified);
+
 
 #portf{
 font-family: HP Simplified;
